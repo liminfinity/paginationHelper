@@ -1,7 +1,7 @@
 /**
  * @classdesc Managing element pagination
  */
-class PaginationHelper {
+class PaginationWizard {
 	/**
 	 * @constructor
 	 */
@@ -30,4 +30,4 @@ class PaginationHelper {
 	}
 }
 
-export { PaginationHelper };
+export { PaginationWizard };
