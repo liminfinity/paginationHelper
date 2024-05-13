@@ -1,4 +1,4 @@
-# Pagination Helper
+# Pagination Wizard
 
 ## Your assistant for easy work with pagination!
 
@@ -10,25 +10,25 @@
 Using npm:
 
 ```bash
-$ npm install pagination-helper
+$ npm install pagination-wizard
 ```
 
 Once the package is installed, you can import the library using import or require approach:
 
 ```js
-import {PaginationHelper} from 'pagination-helper';
+import {PaginationWizard} from 'pagination-wizard';
 ```
 
 ```js
-const {PaginationHelper} = require('pagination-helper');
+const {PaginationWizard} = require('pagination-wizard');
 ```
 
 ## Example
 
 ```js
-import {PaginationHelper} from 'pagination-helper';
+import {PaginationWizard} from 'pagination-wizard';
 
-const helper = new PaginationHelper(itemCount, itemsPerPage);
+const wizard = new PaginationWizard(itemCount, itemsPerPage);
 
-console.log(helper.pageCount());
+console.log(wizard.pageCount());
 ```

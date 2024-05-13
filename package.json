@@ -1,7 +1,7 @@
 {
-  "name": "pagination-helper",
+  "name": "pagination-wizard",
   "description": "Your assistant for easy work with pagination",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "author": "liminfinity <@https://github.com/liminfinity>",
@@ -10,9 +10,9 @@
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/liminfinity/paginationHelper.git"
+    "url": "https://github.com/liminfinity/paginationWizard.git"
   },
-  "readme": "https://github.com/liminfinity/paginationHelper.git#readme",
+  "readme": "https://github.com/liminfinity/paginationWizard.git#readme",
   "scripts": {
     "dev": "tsx --watch src/index.ts",
     "build": "rm -rf dist && tsc && node dist/index.js",
