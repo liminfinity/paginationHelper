@@ -8,6 +8,11 @@
   "license": "MIT",
   "private": false,
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liminfinity/paginationHelper.git"
+  },
+  "readme": "https://github.com/liminfinity/paginationHelper.git#readme",
   "scripts": {
     "dev": "tsx --watch src/index.ts",
     "build": "rm -rf dist && tsc && node dist/index.js",
