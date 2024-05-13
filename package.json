@@ -1,0 +1,26 @@
+{
+  "name": "pagination-helper",
+  "description": "Your assistant for easy work with pagination",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "author": "liminfinity <@https://github.com/liminfinity>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "tsx --watch src/index.ts",
+    "build": "tsc && node dist/index.js",
+    "formatting": "prettier --write src"
+  },
+  "keywords": [
+    "pagination",
+    "utils"
+  ],
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "tsx": "^4.10.1",
+    "typescript": "^5.4.5"
+  }
+}
