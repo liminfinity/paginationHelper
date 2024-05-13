@@ -3,13 +3,16 @@
   "description": "Your assistant for easy work with pagination",
   "version": "1.0.0",
   "main": "dist/index.js",
+  "module": "dist/index.js",
   "author": "liminfinity <@https://github.com/liminfinity>",
   "license": "MIT",
   "private": false,
+  "type": "module",
   "scripts": {
     "dev": "tsx --watch src/index.ts",
-    "build": "tsc && node dist/index.js",
-    "formatting": "prettier --write src"
+    "build": "rm -rf dist && tsc && node dist/index.js",
+    "formatting": "prettier --write src",
+    "test": "jest"
   },
   "keywords": [
     "pagination",
@@ -19,7 +22,12 @@
     "dist"
   ],
   "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
     "prettier": "^3.2.5",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
     "tsx": "^4.10.1",
     "typescript": "^5.4.5"
   }

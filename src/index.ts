@@ -1,1 +1,1 @@
-export { PaginationHelper } from "./paginationHelper.js";
+export { PaginationHelper } from "./lib/index.js";
