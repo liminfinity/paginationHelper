@@ -8,7 +8,6 @@
         "target": "ES6",
         "outDir": "dist",
         "declaration": true,
-        "declarationDir": "dist/d.ts",
         "module": "ESNext",
         "allowJs": true,
         "checkJs": false,
